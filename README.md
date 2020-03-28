@@ -1,6 +1,7 @@
 # Sobre o curso
 Aprendizados e exercícios do curso de JS da Rocketseat, um curso gratuito, rápido e completo.
 
+https://skylab.rocketseat.com.br/
 O curso está na plataforma da Rocketseat e é divido em 4 módulos:
 
 1. #### Introdução ao JavaScript
