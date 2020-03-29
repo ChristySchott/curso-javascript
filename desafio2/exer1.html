@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<button>Clique aqui para criar um quadrado hehe</button>
+ <div id="app"></div>
+
+    <script>
+        var elBotao = document.querySelector('button');
+
+        elBotao.onclick = function(){
+            var boxCriado = document.createElement('div');
+            boxCriado.style.width='100px';
+            boxCriado.style.height='100px';
+            boxCriado.style.backgroundColor='red';
+            boxCriado.style.float='left';
+            var containerElement =document.querySelector('#app');
+            containerElement.appendChild(boxCriado);
+        }
+
+    </script>
+</body>
+</html>
