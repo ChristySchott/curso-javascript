@@ -84,3 +84,10 @@ boxElement.style.backgroundColor='#f00';
 ```
 
 Note que não usei 'background-color' e sim backgroundColor, sem o hífen.
+
+# Módulo 3
+
+Por ser um módulo que envolvi muito mais prática do que os anteriores, pude aprender muito enquanto montávamos um App.
+
+De cara entramos na estrutura do App Todo, que seria um lista de tarefas em que eu poderia criar ou excluir algum elemento dela
+O código é montado no HTML da página apenas para demonstração de como esperamos que fique, e logo iniciamos criando os elementos diretamente no JavaScript.
