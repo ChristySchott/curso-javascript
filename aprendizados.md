@@ -91,3 +91,25 @@ Por ser um módulo que envolvi muito mais prática do que os anteriores, pude ap
 
 De cara entramos na estrutura do App Todo, que seria um lista de tarefas em que eu poderia criar ou excluir algum elemento dela
 O código é montado no HTML da página apenas para demonstração de como esperamos que fique, e logo iniciamos criando os elementos diretamente no JavaScript.
+
+Além de aprender a adicionar elementos a lista e a excluí-los, pude ver um pouco mais sobre JSON, uma parte muuuito importante no estudo do JavaScript. Usei o JSON para converter um array e poder salvar a informação recebida no Storage Local. Um pedaço do código:
+
+```
+function saveToStorage(){
+
+    localStorage.setItem('list_todos', JSON.stringify(todos));
+}
+
+```
+
+# Módulo 4
+
+Foi nesse módulo que pude ampliar significativamente meu conhecimento no JS, sendo apresentado ao AJAX, Promises e Axios.
+
+##### Ajax 
+
+É uma requisição assíncrona que realizamos no back-end. Com o AJAX podemos pegar uma informação no JS sem precisar recarregar a página. Para utilizá-lo iniciamos uma variavel e atribuímos a ela um *new XMLHttpRequest();* 
+
+Durante a aula eu fiz as requisições aqui do meu perfil no GitHub, o que me ajudou muito na hora de compreender melhor o funcionamento do AJAX.
+
+
