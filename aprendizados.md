@@ -112,4 +112,27 @@ Foi nesse módulo que pude ampliar significativamente meu conhecimento no JS, se
 
 Durante a aula eu fiz as requisições aqui do meu perfil no GitHub, o que me ajudou muito na hora de compreender melhor o funcionamento do AJAX.
 
+##### Promises
+
+São funções que devolverão um valor a partir de um determinado tempo. É um objeto que representa a eventual conclusão ou falha de uma operação assíncrona. A grande maioria das pessoas usam promises já criadas, e isso ajudo muito na hora de diminuir o código. Veja no exemplo a seguir a vantagem de utilizar o promises.
+
+Esse código:
+```
+function successCallback(result) {
+  console.log("It succeeded with " + result);
+}
+
+function failureCallback(error) {
+  console.log("It failed with " + error);
+}
+
+doSomething(successCallback, failureCallback);
+```
+
+Pode ser representado assim:
+
+> doSomething().then(successCallback, failureCallback);
+
+
+
 
